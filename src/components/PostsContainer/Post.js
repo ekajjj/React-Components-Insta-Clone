@@ -8,7 +8,7 @@ import PostHeader from "./PostHeader";
 import "./Posts.css";
 
 const Post = props => {
-  const [likes, setLikes] = useState(
+  const [likes, setLikes] = React.useState(
     props.dataFromParent.likes
   );
 

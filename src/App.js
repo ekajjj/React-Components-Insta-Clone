@@ -13,7 +13,7 @@ import SearchBar from "./components/SearchBar/SearchBarContainer";
 import dummyData from "./dummy-data";
 
 const App = () => {
-  const [data] = useState(dummyData);
+  const [data] = React.useState(dummyData);
   return (
     <div className="App">
       {/* Add components here  and pass props where appropriate */}
